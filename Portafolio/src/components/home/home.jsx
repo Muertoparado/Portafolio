@@ -20,9 +20,9 @@ function Home() {
 
       <Grid container alignItems="stretch" spacing={2}>
 
-        <Grid xs={5}>
+        <Grid xs={5} style={{position:"static"}}>
           
-          <Circuit  className="box-circuit" />  
+          <Circuit  className="box-circuit margin-top" />  
             <p>*Al presionar los pulsadores se enciende el led*</p> 
              
         </Grid>
