@@ -1,14 +1,37 @@
 .border-top{
-    margin-top: 100px;
+    margin-top: 20px;
 }
-
+.container-neu{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    border-radius: 70px;
+    background: linear-gradient(145deg, #2f009c93, #1c1818);
+    box-shadow:  50px 50px 90px #a25ce3,
+    -50px -50px 90px #1d29cd;
+}
+.center{
+    text-align: center;
+    
+}
+.tittle{
+    padding-top: 30px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
 .box-circuit{
+    padding-top: 30px;
+    border-radius: 20%;
+    margin-top: 5rem;
     width: 600px;
     height: 500px;
    
 }
 .margin-top{
-    margin-top: 200px;
+    padding: 70px;
+}
+.margin-top2{
+    padding: 8rem;
 }
 .circuit-container {
     width: 100%;

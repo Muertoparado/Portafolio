@@ -16,7 +16,7 @@
     "@mui/material": "^5.15.0",
     "@react-three/fiber": "^8.15.12",
     "@splinetool/react-spline": "^2.2.6",
-    "@splinetool/runtime": "^0.9.523",
+    "@splinetool/runtime": "^0.9.526",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.159.0"

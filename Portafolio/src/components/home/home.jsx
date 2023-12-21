@@ -11,23 +11,27 @@ function Home() {
     <Box>
        <Box style={{ width: '98.9vw', height: '100vh' }}>
       <Navbar />
-      <Presentacion />
+      <Box >
+      <Presentacion  style={{position:"static"}}/>
       </Box>
-      <Container className="border-top" maxWidth="lg" >
-      <h1>
+      
+      </Box>
+      <Container className=" container-neu" maxWidth="lg" >
+      <h1 className=" tittle">
         About Me
       </h1>
 
       <Grid container alignItems="stretch" spacing={2}>
 
-        <Grid xs={5} style={{position:"static"}}>
-          
-          <Circuit  className="box-circuit margin-top" />  
-            <p>*Al presionar los pulsadores se enciende el led*</p> 
-             
+        <Grid item xs={5} style={{position:"static"}}>
+          <Container className="margin-top2" >
+          <Circuit />  
+            <p className="center">*Al presionar los pulsadores se enciende el led*</p> 
+
+          </Container>    
         </Grid>
 
-        <Grid xs={7} >
+        <Grid  className="margin-top" item xs={7} >
 
         <p> Soy Ingeniero electrónico con especialización en desarrollo web, me he enfocado en convertirme en un desarrollador full-stack sólido con gran capacidad para resolver problemas complejos. Inicialmente me formé como ingeniero electrónico, donde adquirí sólidas capacidades analíticas para resolver problemas técnicos. Sin embargo, al final de mi carrera descubrí una pasión por el desarrollo web. Esto me llevó a enfocarme en lenguajes tales como JavaScript, Node.js, Express, bases de datos SQL y NoSQL, así como React para front-end.
 
@@ -42,7 +46,7 @@ function Home() {
 
       </Container>
 
-      <Container>
+      <Container className="margin-top">
         <h1>Proyects</h1>
         <NFTCard/>
       </Container>
